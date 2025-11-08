@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaqueries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav_bar -->
+    <nav id="desktop_nav">
+      <div class="name">Bammidi Meghana</div>
+      <div>
+        <ul class="nav_links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Edu_div">Education</a></li>
+          <li><a href="#Skills_div">Skills</a></li>
+          <li><a href="#Projects_container">Projects</a></li>
+          <li><a href="#footer">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- intro_section -->
+    <section id="profile">
+      <div>
+        <img
+          src="https://wallpapers.com/images/hd/professional-background-0rvi0y9hjbs1yq1q.jpg"
+          alt=""
+          style="width: 100%; height: 700px"
+        />
+      </div>
+      <div>
+        <img
+          src="https://vectorified.com/images/business-woman-icon-30.png"
+          alt=""
+          style="margin-top: -600px; padding-left: 150px; padding-bottom: 30%"
+        />
+      </div>
+      <div id="Profile_text">
+        <p>Hello I'm</p>
+        <h1><i>Bammidi Meghana</i></h1>
+        <p>Full Stack Developer</p>
+        <button>
+          <a href="./images,resume/Meghana_Resume.pdf">Download CV</a>
+        </button>
+        <button><a href="">Contact info</a></button>
+      </div>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br />
+
+    <!-- Education_Section -->
+    <section id="Edu_div">
+      <div>
+        <img
+          src="https://img.freepik.com/free-vector/geometric-science-education-background-vector-gradient-blue-digital-remix_53876-125993.jpg"
+          alt=""
+        />
+        <h1>Education</h1>
+      </div>
+      <div>
+        <p>
+          I pursued my Bachelor of Technology in Computer Science and
+          Engineering at MNR College of Engineering and Technology (2021–2025)
+          with a CGPA of 8.02. I completed my Intermediate education in the MPC
+          stream at Sri Chaitanya Junior College (2019–2021), achieving a CGPA
+          of 9.7. I obtained my Secondary Education from Sree Vani High School
+          in 2019, securing a CGPA of 9.5.
+        </p>
+      </div>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- Skills_Section -->
+    <section id="Skills_div">
+      <div>
+        <img src="https://wallpaperaccess.com/full/5652027.png" alt="" />
+        <h1>Skills</h1>
+      </div>
+
+      <div id="Skills_container">
+        <div>
+          <img
+            src="https://thumbs.dreamstime.com/z/html-css-js-icon-set-web-development-logo-javascript-programming-symbol-171669655.jpg"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <p>
+            HTML: Proficient in Lists, Tables, Hyperlinks, Forms, HTML5 tags
+            <br />
+            CSS: Experienced in Selectors, Box Model, Display & Position
+            properties <br />
+            JavaScript (JS): Familiar with Hoisting, Scopes, Functions, Arrays,
+            BOM, DOM, and Events
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:680/1*hYcz2ozx_Fv4yEc1_LVajg.png"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <p>
+            Knowledge of OOP concepts, Exception Handling, and Collections
+            Framework
+          </p>
+        </div>
+
+        <div>
+          <img
+            src="https://tse4.mm.bing.net/th/id/OIP.8i6Lj88V-t6OLc4M7E4SLAHaE8?pid=Api&P=0&h=180"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <p>
+            Skilled in DDL, DML, DCL, TCL, DQL, and concepts like Joins,
+            Subqueries, Group By, and Aggregate Functions
+          </p>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <!-- Projects_Section -->
+    <section id="Projects_container">
+      <h1>Projects</h1>
+      <br /><br />
+      <div>
+        <h3>Minor Project</h3>
+        <br />
+        <h1>
+          Pupil Heart:Heart Rate Variability(HRV) Monitoring via Pupillary
+          Fluctuations. <br />
+        </h1>
+        <p>
+          Pupil Heart as a computer vision- based mobile HRV monitoring system,
+          including a mobile terminal and a server side. On the mobile terminal,
+          during face recognition, Pupil Heart has collected pupil size
+          information through the front facing camera on mobile phones. On the
+          server side, after preprocessing the raw pupil size data, Pupil Heart
+          has extracted high-dimension features using
+          <b> 1-D convolutional neural network(1DCNN)</b>, and based on this,
+          has built a pupil-HRV model by <b>recurrent neural network (RNN) </b>.
+          On that basis, Pupil Heart has achieved daily HRV monitoring. The
+          overall results have shown that Pupil Heart can accurately predict a
+          user’s HRV when unlocking phones using face recognition.
+        </p>
+      </div>
+
+      <div>
+        <h3>Major Project</h3>
+        <br />
+        <h1>Oral Cancer Detection Using Deep Learning.</h1>
+        <br />
+        <p>
+          Oral cancer is a significant public health concern worldwide, often
+          leading to high mortality rates due to late-stage detection. This
+          project presents a deep learning-based solution for detecting oral
+          cancer using advanced convolutional neural network architectures,
+          <b>ResNet152V2 and MobileNet</b>. The models were trained on a
+          carefully curated dataset comprising labeled images of cancerous and
+          non-cancerous oral cavities. This application serves as a
+          user-friendly interface for healthcare professionals and researchers.
+          users can upload images of oral cavities, which are then processed and
+          provide real-time predictions. The results include classifications as
+          "Cancer" or "Non-Cancer".
+        </p>
+      </div>
+    </section>
+    <br /><br /><br />
+    <hr />
+    <!-- footer_Section -->
+    <section>
+      <div id="footer">
+        <h3>Contact</h3>
+        <br />
+        <p>
+          Mobile:<i class="fa-solid fa-phone"></i> +91 9948****56 <br />
+          Gmail:bammidime********@gmail.com <br />
+          Address:Patancheru,Hyderabad,Telangana <br />
+          <i class="fa-brands fa-linkedin"></i>
+          <a
+            href="https://www.linkedin.com/in/bammidi-meghana-238653287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            >click here to view linkedin profile</a
+          >
+          <br />
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/BammidiMeghana/Octanet_april.git"
+            >click here to view profile</a
+          >
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
